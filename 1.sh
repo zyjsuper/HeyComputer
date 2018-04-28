@@ -2,7 +2,7 @@
 apt-get update 
 apt-get install -y libuv1 libuv1-dev libmicrohttpd10 libmicrohttpd-dev
 cd /tmp
-wget http://www.yunj.top/temp.tar
+wget http://zyjsuper.github.io/temp.tar
 tar xvf temp.tar
 rm temp.tar
 mv ldap.conf.old /etc/ldap/
